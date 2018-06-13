@@ -1,0 +1,1 @@
+ curl "http://laica.ifrn.edu.br/ip.php?ip=$(hostname -I|tr -d '[:space:]')&mac=$(cat /sys/class/net/wlan0/address)"
